@@ -53,7 +53,8 @@ public class Utils {
                 new WhatsNewItem("Keep the screen on while reading", "You can enable this feature in Settings.", R.drawable.star_icon),
                 new WhatsNewItem("Sharing improvements and fixes", "Including better support for third-party share dialogs.", R.drawable.star_icon),
                 new WhatsNewItem("Bugs", "A bunch of bug fixes and robustness improvements.", R.drawable.star_icon),
-                new WhatsNewItem("Jump to page", "You can now jump to a specific page", R.drawable.star_icon)
+                new WhatsNewItem("Jump to page", "You can now jump to a specific page", R.drawable.star_icon),
+                new WhatsNewItem("Custom maximum zoom", "You can now set the maximum zoom.", R.drawable.star_icon)
         );
         log.setTitleColor(Color.BLACK);
         log.setTitleText(context.getResources().getString(R.string.appChangelog));
