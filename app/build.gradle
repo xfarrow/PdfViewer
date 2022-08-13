@@ -76,7 +76,7 @@ dependencies {
     implementation 'com.github.paolorotolo:appintro:v5.1.0'
 
     //Pdf Viewer Library (Proguard config done)
-    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'com.github.xfarrow:AndroidPdfViewer:3.2.1-beta'
 
     //License Presenter Library (Proguard config not needed)
     implementation 'com.github.franmontiel:AttributionPresenter:1.0.1'
