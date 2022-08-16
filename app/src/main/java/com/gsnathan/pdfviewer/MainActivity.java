@@ -495,7 +495,7 @@ public class MainActivity extends CyaneaAppCompatActivity {
         pageNumber = page - 1;
 
         if(prefManager.getBoolean("reset_view_page_jump_pref", true))
-            viewBinding.pdfView.jumpToAndResetView(pageNumber,false);
+            viewBinding.pdfView.jumpToAndResetView(pageNumber, false);
         else
             viewBinding.pdfView.jumpToSameRelativePosition(pageNumber);
     }
