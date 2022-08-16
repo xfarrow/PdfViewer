@@ -37,6 +37,7 @@
     <string name="quality">Высокое качество изображения</string>
     <string name="alias">Сглаживание</string>
     <string name="scrollsettings">Прокрутка</string>
+    <string name="more">Другой</string>
     <string name="scroll">Горизонтальная прокрутка</string>
     <string name="fling">Перелистывание страниц</string>
 

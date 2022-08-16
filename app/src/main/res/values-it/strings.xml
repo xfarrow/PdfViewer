@@ -61,6 +61,7 @@
     <string name="fling_summary">Passa direttamente alla pagina successiva con uno scorrimento rapido</string>
     <string name="qualitysettings">Visualizzazione</string>
     <string name="scrollsettings">Scorrimento</string>
+    <string name="more">Altro</string>
     <string name="title_activity_settings">Impostazioni</string>
     <string name="buttonLog">Continua</string>
     <string name="show_in_launcher">Mostra l\'applicazione nel launcher</string>
@@ -74,6 +75,7 @@
     <string name="wrong_password">Password errata.</string>
     <string name="dark_pdf">Modalità scura per il PDF</string>
     <string name="keep_screen_on">Mantieni lo schermo acceso</string>
+    <string name="reset_view_at_page_jump">Reimposta visualizzazione dopo "vai a pagina"</string>
     <string name="maximum_zoom">Zoom massimo:</string>
     <string name="privacy_info">Questa app non raccoglie alcun dato.\nI seguenti permessi sono richiesti per fornire specifiche funzionalità dell\'applicazione:\n- <b>Internet</b>: aprire i PDF tramite link\n- <b>Archiviazione</b>: aprire file dalla memoria interna, salvare i PDF aperti tramite link</string>
 </resources>

@@ -48,11 +48,11 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="More">
+        android:title="@string/more">
 
         <SwitchPreference
             android:defaultValue="true"
-            android:title="Reset view at page jump" android:key="reset_view_page_jump_pref"/>
+            android:title="@string/reset_view_at_page_jump" android:key="reset_view_page_jump_pref"/>
 
         <SeekBarPreference
             android:defaultValue="4"
