@@ -38,7 +38,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 28
-        versionName "3.7.5-unofficial"
+        versionName "3.7.6-unofficial"
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -76,7 +76,7 @@ dependencies {
     implementation 'com.github.paolorotolo:appintro:v5.1.0'
 
     //Pdf Viewer Library (Proguard config done)
-    implementation 'com.github.xfarrow:AndroidPdfViewer:3.2.1-beta'
+    implementation 'com.github.xfarrow:AndroidPdfViewer:3.2.17'
 
     //License Presenter Library (Proguard config not needed)
     implementation 'com.github.franmontiel:AttributionPresenter:1.0.1'

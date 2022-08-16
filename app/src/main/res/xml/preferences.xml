@@ -26,12 +26,6 @@
             android:defaultValue="false"
             android:title="@string/keep_screen_on" android:key="screen_on_pref"/>
 
-        <SeekBarPreference
-            android:defaultValue="4"
-            android:title="@string/maximum_zoom" android:key="max_zoom_pref"
-            android:max="9"
-            app:showSeekBarValue="true"/>
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -51,6 +45,20 @@
             android:title="@string/fling"
             android:summary="@string/fling_summary" android:key="fling_pref"/>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="More">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:title="Reset view at page jump" android:key="reset_view_page_jump_pref"/>
+
+        <SeekBarPreference
+            android:defaultValue="4"
+            android:title="@string/maximum_zoom" android:key="max_zoom_pref"
+            android:max="9"
+            app:showSeekBarValue="true"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

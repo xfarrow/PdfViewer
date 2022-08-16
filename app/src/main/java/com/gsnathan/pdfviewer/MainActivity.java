@@ -488,16 +488,16 @@ public class MainActivity extends CyaneaAppCompatActivity {
     }
 
     private void jumpToPage(int page){
+
         if(viewBinding.pdfView.getPageCount() == 0){
             return;
         }
         pageNumber = page - 1;
 
-        if(!viewBinding.pdfView.isPageSnap())
-            viewBinding.pdfView.jumpTo(pageNumber);
+        if(prefManager.getBoolean("reset_view_page_jump_pref", true))
+            viewBinding.pdfView.jumpToAndResetView(pageNumber,false);
         else
-            viewBinding.pdfView.performPageSnap(pageNumber, false);
-        setCurrentPage(pageNumber, viewBinding.pdfView.getPageCount());
+            viewBinding.pdfView.jumpToSameRelativePosition(pageNumber);
     }
 
     private void setCurrentPage(int page, int pageCount) {
