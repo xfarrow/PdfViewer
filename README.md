@@ -4,6 +4,7 @@ This repo is a fork of <a href="https://github.com/JavaCafe01/PdfViewer">https:/
 These are the added functionalities:
 * Jump to a specific page. [<a href="https://github.com/JavaCafe01/PdfViewer/pull/177">Requested to merge</a>]
 * Allow to customize the allowed maximum zoom. This was a feature brought up by <a href="https://github.com/JavaCafe01/PdfViewer/issues/174">#174</a>. [<a href="https://github.com/JavaCafe01/PdfViewer/pull/178">Requested to merge</a>]
+* <a href="https://github.com/xfarrow/AndroidPdfViewer">Edited</a> the <a href="https://github.com/barteksc/AndroidPdfViewer">underlying PDF library</a> by creating `jumpTo()` methods UX & UI compatible with Page Snaps. More details <a href="https://github.com/xfarrow/PdfViewer/commit/adbb45d8bd0b38d5e1cda0fc4d3546b04c72947f">here</a>
 
 If you have any issues or pull requests, please open them in the <a href="https://github.com/JavaCafe01/PdfViewer">base repo</a> because I am not a mantainer, thanks.
 
